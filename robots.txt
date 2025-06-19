@@ -1,0 +1,16 @@
+# robots.txt for SearchStax QA BigDocs
+# Target URL: https://qa-automation.searchstax.co/v1/minisite/bigdocs/
+
+User-agent: *
+Disallow: /v1/minisite/bigdocs/1280MB-TESTFILE.pdf/
+Disallow: /aspx/
+Disallow: /v1/minisite/bigdocs/6MB_japanese.html/
+Disallow: /v1/minisite/bigdocs/1GB.html/
+Disallow: /html/
+
+
+User-agent: W3C-checklink
+Allow: *
+
+# Sitemap (optional, add real URL if available)
+# Sitemap: https://qa-automation.searchstax.co/v1/minisite/bigdocs/sitemap.xml
